@@ -1,0 +1,12 @@
+<?php
+ 
+     
+        $hostname = "localhost";
+        $username = "root";
+        $password = "";
+        $database = "butik";
+        
+        $conn = mysqli_connect($hostname,$username,$password,$database) or die("Database connection failed");
+     
+
+?>
