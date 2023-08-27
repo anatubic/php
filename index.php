@@ -28,6 +28,43 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap" rel="stylesheet">
+    <style>
+    .navbar {
+      background-color: pink !important;
+    }
+    .navbar-brand {
+      font-family: 'Satisfy', cursive;
+      color: white !important;
+      font-size: 35px;
+    }
+    .header-image-container {
+      position: relative;
+    }
+    .overlay-text {
+      position: absolute;
+      top: 30%;
+      left: 36%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      text-align: left;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    .hd {
+      font-family: 'Satisfy', cursive;
+    }
+    body {
+      background-image: url('./images/background.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .table {
+      background-color: pink;
+    }
+  </style>
 </head>
 <body   >
    
@@ -50,6 +87,18 @@
             </form>
         </div>
         </nav>
+
+    <div class="container mt-4 header-image-container">
+    <div class="row">
+      <div class="col-12">
+        <img src="images/hdr.jpeg" alt="Header Picture" class="img-fluid">
+        <div class="overlay-text">
+          <h1 class="hd">Dobrodosli u Butik!</h1>
+          <p>Izvrsite pregled porudzbina, azurirajte ih, obrisite ili dodajte nove. Pored toga, mozete ih i sortirati ili pretrazivati.</p>
+        </div>
+      </div>
+    </div>
+  </div>   
  
 
 
@@ -72,7 +121,7 @@
                     <th scope="col">Velicina</th>
                     <th scope="col">Cena</th>
                     <th scope="col">Slika</th>
-                    <th scope="col"> Options </th>
+                    <th scope="col"> Opcije </th>
 
 
                     </tr>
